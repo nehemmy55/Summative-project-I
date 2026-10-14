@@ -5,7 +5,7 @@ medical schools. It answers short open questions and multiple-choice exam questi
 refuses questions that are not about health.
 
 - **GitHub:** https://github.com/nehemmy55/Summative-project-I
-- **Live app:** TODO
+- **Live app:** https://afrimedi.streamlit.app/
 - **Demo video:** TODO
 - **Report:** [report/report.pdf](report/report.pdf)
 - **Model weights:** https://huggingface.co/ishimwe5555/afrimed-qa
