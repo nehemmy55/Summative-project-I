@@ -1,0 +1,21 @@
+text,label,p_health
+hello,0,0.588
+how are you today?,0,0.656
+who won the africa cup of nations in 2019?,0,0.031
+what is the capital of rwanda?,0,0.045
+how do I fix a python import error?,0,0.398
+what is the best fertilizer for maize?,0,0.491
+how can I open a bank account?,0,0.395
+write me a poem about love,0,0.263
+what is the exchange rate of the dollar?,0,0.268
+how many players are in a football team?,0,0.025
+what are the symptoms of malaria?,1,0.981
+how is typhoid fever treated?,1,0.993
+"my child has diarrhoea and is vomiting, what should I do?",1,0.978
+is it safe to take paracetamol while pregnant?,1,0.922
+how can I prevent cholera?,1,0.986
+what causes sickle cell anaemia?,1,0.953
+i have a headache that will not go away,1,0.987
+how is HIV transmitted from mother to child?,1,0.947
+what is hypertension?,1,0.534
+can tuberculosis be cured?,1,0.985
