@@ -1,0 +1,74 @@
+{
+  "afrimed_raw_rows": 15275,
+  "afrimed_raw_by_type": {
+    "consumer_queries": 10000,
+    "mcq": 4039,
+    "saq": 1236
+  },
+  "afrimed_answered_kept": 4959,
+  "afrimed_dropped": {
+    "mcq_multi_answer": 315,
+    "mcq_bad_options": 0,
+    "empty": 0,
+    "duplicates": 1
+  },
+  "afrimed_countries": {
+    "NG": 2176,
+    "GH": 1491,
+    "KE": 776,
+    "MW": 461,
+    "ZA": 54,
+    "TZ": 1
+  },
+  "afrimed_top_specialties": {
+    "Unknown": 875,
+    "General_Surgery": 678,
+    "Obstetrics_and_Gynecology": 589,
+    "Pediatrics": 559,
+    "Pathology": 233,
+    "Neurology": 219,
+    "Infectious_Disease": 212,
+    "Psychiatry": 176,
+    "Cardiology": 175,
+    "Endocrinology": 148
+  },
+  "mcq_options_mean": 5.0,
+  "train": {
+    "n": 6967,
+    "by_source_task": {
+      "afrimedqa/mcq": 2978,
+      "afrimedqa/open": 989,
+      "medquad/open": 3000
+    },
+    "question_words_mean": 14.4,
+    "answer_words_mean": 20.8
+  },
+  "val": {
+    "n": 496,
+    "by_source_task": {
+      "afrimedqa/mcq": 372,
+      "afrimedqa/open": 124
+    },
+    "question_words_mean": 19.5,
+    "answer_words_mean": 10.0
+  },
+  "test": {
+    "n": 696,
+    "by_source_task": {
+      "afrimedqa/mcq": 373,
+      "afrimedqa/open": 123,
+      "medquad/open": 200
+    },
+    "question_words_mean": 16.1,
+    "answer_words_mean": 17.5
+  },
+  "kb_passages": 8221,
+  "ood_train": {
+    "1": 11894,
+    "0": 9154
+  },
+  "ood_test": {
+    "0": 2519,
+    "1": 2229
+  }
+}

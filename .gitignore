@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.streamlit/secrets.toml
+
+# raw data is downloaded by src/data_prep.py
+data/raw/
+
+# model weights are too big for GitHub; the final model is on the Hugging Face Hub
+# (only the small domain gate classifier is kept in the repo)
+models/*/
+
+*.zip
