@@ -1,0 +1,35 @@
+{
+  "mcq": {
+    "n": 373,
+    "accuracy": 0.1689,
+    "accuracy_ci95": [
+      0.1314,
+      0.2091
+    ],
+    "random_baseline": 0.2,
+    "no_option_matched": 0.008
+  },
+  "open_afrimed": {
+    "n": 123,
+    "exact_match": 0.0,
+    "token_f1": 0.0,
+    "rouge1": 0.0,
+    "rougeL": 0.0,
+    "rougeL_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "open_medquad": {
+    "n": 200,
+    "exact_match": 0.0,
+    "token_f1": 0.0,
+    "rouge1": 0.0,
+    "rougeL": 0.0,
+    "rougeL_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "seconds": 0.5
+}
