@@ -1,0 +1,37 @@
+{
+  "name": "base_full",
+  "model": "google/flan-t5-base",
+  "method": "full",
+  "rank": 8,
+  "data": "afrimed",
+  "rag": false,
+  "epochs": 3,
+  "batch_size": 8,
+  "lr": 0.0003,
+  "max_train": null,
+  "eval_limit": null,
+  "base_model": "google/flan-t5-base",
+  "device": "cuda",
+  "trainable_params": 247577856,
+  "total_params": 247577856,
+  "train_examples": 3967,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1061,
+      "val_loss": 1.3793
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7793,
+      "val_loss": 1.338
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5986,
+      "val_loss": 1.3493
+    }
+  ],
+  "best_val_loss": 1.338,
+  "train_minutes": 9.4
+}

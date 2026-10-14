@@ -1,0 +1,35 @@
+{
+  "name": "lora_r32",
+  "method": "lora",
+  "rank": 32,
+  "data": "afrimed",
+  "rag": false,
+  "epochs": 3,
+  "batch_size": 8,
+  "lr": 0.001,
+  "max_train": null,
+  "eval_limit": null,
+  "base_model": "google/flan-t5-small",
+  "trainable_params": 1376256,
+  "total_params": 78337408,
+  "train_examples": 3967,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3627,
+      "val_loss": 1.7908
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.2309,
+      "val_loss": 1.7426
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.1564,
+      "val_loss": 1.7229
+    }
+  ],
+  "best_val_loss": 1.7229,
+  "train_minutes": 350.0
+}

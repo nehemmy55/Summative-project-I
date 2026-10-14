@@ -1,0 +1,81 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/190 [00:00<?, ?it/s]Loading weights:  32%|###2      | 61/190 [00:00<00:00, 588.97it/s]Loading weights:  69%|######9   | 132/190 [00:00<00:00, 652.21it/s]Loading weights: 100%|##########| 190/190 [00:00<00:00, 458.35it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+lora_r32: 3967 train examples, trainable params 1,376,256 (1.76% of 78,337,408), lr 0.001
+  step 50/1488 loss 1.738 (3.30s/step, ~79 min left)
+  step 100/1488 loss 1.307 (3.09s/step, ~72 min left)
+  step 150/1488 loss 1.256 (3.14s/step, ~70 min left)
+  step 200/1488 loss 1.392 (3.12s/step, ~67 min left)
+  step 250/1488 loss 1.237 (3.20s/step, ~66 min left)
+  step 300/1488 loss 1.533 (3.20s/step, ~63 min left)
+  step 350/1488 loss 1.081 (3.20s/step, ~61 min left)
+  step 400/1488 loss 1.185 (3.19s/step, ~58 min left)
+  step 450/1488 loss 1.325 (3.20s/step, ~55 min left)
+epoch 1: train loss 1.3627 val loss 1.7908
+  step 500/1488 loss 1.368 (3.33s/step, ~55 min left)
+  step 550/1488 loss 1.287 (3.34s/step, ~52 min left)
+  step 600/1488 loss 1.132 (3.34s/step, ~49 min left)
+  step 650/1488 loss 1.009 (3.35s/step, ~47 min left)
+  step 700/1488 loss 1.253 (3.32s/step, ~44 min left)
+  step 750/1488 loss 1.456 (3.32s/step, ~41 min left)
+  step 800/1488 loss 1.218 (3.33s/step, ~38 min left)
+  step 850/1488 loss 1.130 (3.34s/step, ~35 min left)
+  step 900/1488 loss 1.315 (3.34s/step, ~33 min left)
+  step 950/1488 loss 1.285 (3.34s/step, ~30 min left)
+epoch 2: train loss 1.2309 val loss 1.7426
+  step 1000/1488 loss 1.887 (3.41s/step, ~28 min left)
+  step 1050/1488 loss 1.282 (3.40s/step, ~25 min left)
+  step 1100/1488 loss 1.282 (3.40s/step, ~22 min left)
+  step 1150/1488 loss 1.338 (3.39s/step, ~19 min left)
+  step 1200/1488 loss 1.239 (3.39s/step, ~16 min left)
+  step 1250/1488 loss 1.134 (3.38s/step, ~13 min left)
+  step 1300/1488 loss 0.910 (3.37s/step, ~11 min left)
+  step 1350/1488 loss 1.016 (3.36s/step, ~8 min left)
+  step 1400/1488 loss 1.124 (3.36s/step, ~5 min left)
+  step 1450/1488 loss 1.084 (3.38s/step, ~2 min left)
+epoch 3: train loss 1.1564 val loss 1.7229
+Loading weights:   0%|          | 0/190 [00:00<?, ?it/s]Loading weights:  17%|#7        | 33/190 [00:00<00:00, 327.95it/s]Loading weights:  39%|###8      | 74/190 [00:00<00:00, 352.00it/s]Loading weights:  58%|#####7    | 110/190 [00:00<00:00, 325.90it/s]Loading weights:  75%|#######5  | 143/190 [00:00<00:00, 148.13it/s]Loading weights: 100%|##########| 190/190 [00:00<00:00, 246.77it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+C:\Users\nehemie\AppData\Roaming\Python\Python314\site-packages\peft\tuners\tuners_utils.py:733: UserWarning: Input and output embeddings are no longer tied after merging. Setting `tie_word_embeddings=False` in the model config.
+  warnings.warn(
+  generated 16/696
+  generated 176/696
+  generated 336/696
+  generated 496/696
+  generated 656/696
+lora_r32 {
+  "mcq": {
+    "n": 373,
+    "accuracy": 0.2306,
+    "accuracy_ci95": [
+      0.1877,
+      0.2735
+    ],
+    "random_baseline": 0.2,
+    "no_option_matched": 0.0241
+  },
+  "open_afrimed": {
+    "n": 123,
+    "exact_match": 0.0,
+    "token_f1": 0.3193,
+    "rouge1": 0.3359,
+    "rougeL": 0.2794,
+    "rougeL_ci95": [
+      0.2479,
+      0.3117
+    ]
+  },
+  "open_medquad": {
+    "n": 200,
+    "exact_match": 0.0,
+    "token_f1": 0.1951,
+    "rouge1": 0.2329,
+    "rougeL": 0.1862,
+    "rougeL_ci95": [
+      0.1744,
+      0.1987
+    ]
+  },
+  "seconds": 540.8
+}

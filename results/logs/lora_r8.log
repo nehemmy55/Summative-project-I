@@ -1,0 +1,81 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/190 [00:00<?, ?it/s]Loading weights:  31%|###       | 58/190 [00:00<00:00, 578.31it/s]Loading weights:  61%|######1   | 116/190 [00:00<00:00, 475.63it/s]Loading weights:  87%|########6 | 165/190 [00:00<00:00, 374.11it/s]Loading weights: 100%|##########| 190/190 [00:00<00:00, 463.14it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+lora_r8: 3967 train examples, trainable params 344,064 (0.45% of 77,305,216), lr 0.001
+  step 50/1488 loss 1.820 (3.92s/step, ~94 min left)
+  step 100/1488 loss 1.313 (3.70s/step, ~86 min left)
+  step 150/1488 loss 1.247 (4.25s/step, ~95 min left)
+  step 200/1488 loss 1.402 (4.36s/step, ~93 min left)
+  step 250/1488 loss 1.244 (4.55s/step, ~94 min left)
+  step 300/1488 loss 1.518 (4.43s/step, ~88 min left)
+  step 350/1488 loss 1.088 (4.28s/step, ~81 min left)
+  step 400/1488 loss 1.184 (4.16s/step, ~75 min left)
+  step 450/1488 loss 1.337 (4.06s/step, ~70 min left)
+epoch 1: train loss 1.3761 val loss 1.8170
+  step 500/1488 loss 1.364 (4.13s/step, ~68 min left)
+  step 550/1488 loss 1.327 (4.08s/step, ~64 min left)
+  step 600/1488 loss 1.146 (4.06s/step, ~60 min left)
+  step 650/1488 loss 1.016 (4.06s/step, ~57 min left)
+  step 700/1488 loss 1.275 (9.40s/step, ~123 min left)
+  step 750/1488 loss 1.519 (9.16s/step, ~113 min left)
+  step 800/1488 loss 1.276 (8.83s/step, ~101 min left)
+  step 850/1488 loss 1.145 (8.55s/step, ~91 min left)
+  step 900/1488 loss 1.352 (8.29s/step, ~81 min left)
+  step 950/1488 loss 1.332 (8.03s/step, ~72 min left)
+epoch 2: train loss 1.2653 val loss 1.7882
+  step 1000/1488 loss 1.986 (7.91s/step, ~64 min left)
+  step 1050/1488 loss 1.376 (7.71s/step, ~56 min left)
+  step 1100/1488 loss 1.341 (7.52s/step, ~49 min left)
+  step 1150/1488 loss 1.408 (7.34s/step, ~41 min left)
+  step 1200/1488 loss 1.298 (7.19s/step, ~34 min left)
+  step 1250/1488 loss 1.182 (7.03s/step, ~28 min left)
+  step 1300/1488 loss 0.945 (6.89s/step, ~22 min left)
+  step 1350/1488 loss 1.075 (6.77s/step, ~16 min left)
+  step 1400/1488 loss 1.189 (6.66s/step, ~10 min left)
+  step 1450/1488 loss 1.144 (6.56s/step, ~4 min left)
+epoch 3: train loss 1.216 val loss 1.7753
+Loading weights:   0%|          | 0/190 [00:00<?, ?it/s]Loading weights:  43%|####2     | 81/190 [00:00<00:00, 778.47it/s]Loading weights:  84%|########3 | 159/190 [00:00<00:00, 359.65it/s]Loading weights: 100%|##########| 190/190 [00:00<00:00, 464.69it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie shared.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+C:\Users\nehemie\AppData\Roaming\Python\Python314\site-packages\peft\tuners\tuners_utils.py:733: UserWarning: Input and output embeddings are no longer tied after merging. Setting `tie_word_embeddings=False` in the model config.
+  warnings.warn(
+  generated 16/696
+  generated 176/696
+  generated 336/696
+  generated 496/696
+  generated 656/696
+lora_r8 {
+  "mcq": {
+    "n": 373,
+    "accuracy": 0.2359,
+    "accuracy_ci95": [
+      0.193,
+      0.2815
+    ],
+    "random_baseline": 0.2,
+    "no_option_matched": 0.0188
+  },
+  "open_afrimed": {
+    "n": 123,
+    "exact_match": 0.0,
+    "token_f1": 0.3198,
+    "rouge1": 0.3361,
+    "rougeL": 0.2778,
+    "rougeL_ci95": [
+      0.2461,
+      0.3097
+    ]
+  },
+  "open_medquad": {
+    "n": 200,
+    "exact_match": 0.0,
+    "token_f1": 0.1949,
+    "rouge1": 0.2337,
+    "rougeL": 0.1889,
+    "rougeL_ci95": [
+      0.178,
+      0.2005
+    ]
+  },
+  "seconds": 440.3
+}
